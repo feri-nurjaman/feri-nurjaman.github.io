@@ -1,0 +1,76 @@
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.header h1 a{
+	text-decoration: none;
+	color: black;
+}
+.header h2{
+	position: absolute;
+	text-align: center;
+	transform: translateX(-50px);
+	left: 47%;
+}
+.header .nav a{
+	color: black;
+	text-decoration: none;
+}
+.header .nav .tombol {
+	border: none;
+	margin-top: 25px;
+	background-color: #FFC286;
+	width: 70px;
+	height: 35px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+.konten {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.konten .text {
+	width: 35%;
+	height: auto;
+	margin-top: 5%;
+}
+.konten .text .tombol1 {
+	border: none;
+	background-color: #FFC286;
+	width: 115px;
+	height: 35px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+.konten .text .tombol2 {
+	border: solid 1px;
+	background-color: #ffffff;
+	width: 110px;
+	height: 35px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+.konten .text .tombol1 a{
+	text-decoration: none;
+	color: black;
+}
+.konten .text .tombol2 a{
+	text-decoration: none;
+	color: black;
+}
+.konten .text .p{
+	margin-top: -15px;
+	color: GREY;
+	width: 70%;
+}
+.konten .ilustrasi img {
+	width: 600px;
+}
